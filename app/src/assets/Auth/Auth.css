@@ -1,0 +1,29 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #007bff, #6c63ff);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.btn-link {
+  text-decoration: none;
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 1rem;
+}
